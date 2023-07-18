@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Chatbot</title>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- font awesome icon cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body background="hindalco.jpeg">
+    
+    <div class="parent">
+        <div class="desc">
+            <h1 class="text">Chatbot</h1>
+            <p>Renusagar Power Plant is a coal based captive thermal power plant located near Renukoot in Sonbhadra district in the Indian state of Uttar Pradesh. The power plant is operated by the Hindalco Industries and gives power to the smelter, Renukoot for production of aluminium.</p>
+            <button id="init">START CHAT</button>
+        </div>
+        <div>
+            <img src="/chatbot.png" alt="" class="bot-img">
+        </div>
+    </div>
+    <div id="test" style="position: fixed;top: 4rem;right: 8rem;display: none;">
+        
+        <div class="child" id="chatbot">
+            
+            <div class="header">
+                
+                <div class="h-child">                  
+                    <img src="/chatbot (1).png" alt="avatar" id="avatar">
+                    <div>
+
+                        <span class="name">Chatbot</span>
+                        <br>
+                        <span style="color:lawngreen">online</span>
+                    </div>
+                  </div>
+                <div>
+                    
+                    <button class="refBtn"><i class="fa fa-refresh" onclick="initChat()"></i></button>
+                </div>
+            </div>
+            
+            <div id="chat-box">
+           
+            </div>
+            
+            <!-- User input section -->
+          
+            
+            <div class="footer">
+                <span>powered by Hindalco</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- js file  -->
+    <script src="index.js"></script>
+
+    <!--INSERT INTO `data` (`name`, `code`, `email`, `result`) VALUES ('nikesh', '1000734', 'nikeshsharna2222@gmail.com', 'chatbot');-->
+
+    <!-- JavaScript code for user input -->
+
+</body>
+</html>
