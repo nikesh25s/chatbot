@@ -1,2 +1,2 @@
 # chatbot
-in this project a build a chatbot by using html css and javascript.
+In this project i build a chatbot by using html css and javascript.
